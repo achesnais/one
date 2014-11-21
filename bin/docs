@@ -1,0 +1,20 @@
+#!/bin/bash
+
+lein marg -d doc -f one.html
+
+echo "Merging marg docs into documentation.html..."
+
+lein run -m docs
+
+echo "Website documentation complete, please see doc/documentation.html"
+
+if [ -d ../one.guide/public ]; then
+
+    echo "Found one.guide project, moving documentation.html to out.guide/public"
+
+    mv doc/documentation.html ../one.guide/public
+fi
+
+echo "Deleting temporary file one.html"
+
+rm doc/one.html

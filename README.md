@@ -77,6 +77,15 @@ and then open the index.html page in your browser
 lein marg -d doc -f one.html
 ```
 
+or run
+
+```
+bin/docs
+```
+
+to generate documentation page for the web site
+
+
 # License
 
 Copyright © 2012,2014 Brenton Ashworth and Cognitect, Inc
