@@ -62,6 +62,21 @@ While this work is being done, you may want to check out the folling libraries:
 * https://github.com/teropa/hiccups
 
 
+## Running
+
+```
+lein cljsbuild clean && lein cljsbuild auto
+```
+
+and then open the index.html page in your browser
+
+
+## Generating docs
+
+```
+lein marg -d doc -f one.html
+```
+
 # License
 
 Copyright © 2012,2014 Brenton Ashworth and Cognitect, Inc
