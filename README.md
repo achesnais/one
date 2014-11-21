@@ -18,7 +18,7 @@ the past.
 Contributions are welcome.
 
 
-## Useful Clojure libraries
+## Useful ClojureScript libraries
 
 While this work is being done, you may want to check out the folling libraries:
 
@@ -34,6 +34,8 @@ While this work is being done, you may want to check out the folling libraries:
 ### Client architecture
 
 * https://facebook.github.io/flux/ - not a library
+* https://github.com/vitalreactor/derive
+* https://github.com/tonsky/datascript
 * ??????
 
 
