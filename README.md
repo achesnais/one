@@ -25,38 +25,38 @@ While this work is being done, you may want to check out the folling libraries:
 
 ### Tooling
 
-* [lein][https://github.com/technomancy/leiningen]
-* [cljsbuild][https://github.com/emezeske/lein-cljsbuild]
-* [chestnut][https://github.com/plexus/chestnut]
-* [figwheel][https://github.com/bhauman/lein-figwheel]
+* https://github.com/technomancy/leiningen
+* https://github.com/emezeske/lein-cljsbuild
+* https://github.com/plexus/chestnut
+* https://github.com/bhauman/lein-figwheel
 
 
 ### Client architecture
 
-* [Flux][https://facebook.github.io/flux/] - not a library
+* https://facebook.github.io/flux/ - not a library
 * ??????
 
 
 ### Rendering
 
-* [Om][https://github.com/swannodette/om]
-* [quiescent][https://github.com/levand/quiescent]
-* [reagent][https://github.com/reagent-project/reagent]
+* https://github.com/swannodette/om
+* https://github.com/levand/quiescent
+* https://github.com/reagent-project/reagent
 
 
 ### Async
 
-https://github.com/clojure/core.async
+* https://github.com/clojure/core.async
 
 
 ### Data formats
 
-https://github.com/cognitect/transit-cljs
+* https://github.com/cognitect/transit-cljs
 
 
 ### Templates
 
-https://github.com/ckirkendall/kioo
+* https://github.com/ckirkendall/kioo
 
 
 # License
