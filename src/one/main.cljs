@@ -24,7 +24,7 @@
   [dom-id]
   ;; do not allow the app-state atom to be globally accessable
   (let [app-state (atom initial-state)]
-    (app/new-app dom-id app-state {})))
+    (app/create-ui dom-id app-state {})))
 
 ;; `start-dev` is the development entry point to the application. It
 ;; configures the client side dev environment and then starts the
