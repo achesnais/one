@@ -68,7 +68,15 @@ While this work is being done, you may want to check out the folling libraries:
 lein cljsbuild clean && lein cljsbuild auto
 ```
 
-and then open the index.html page in your browser
+and then open the `resources/public/index.html` page in your browser
+
+Or, if you would like to have live reloading
+
+```
+lein cljsbuild clean && lein figwheel
+```
+
+and then open `http://localhost:3449` in your browser.
 
 
 ## Generating docs
