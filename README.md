@@ -39,7 +39,7 @@ While this work is being done, you may want to check out the folling libraries:
 * ??????
 
 
-### Rendering
+### Rendering (React)
 
 * https://github.com/swannodette/om
 * https://github.com/levand/quiescent
@@ -59,6 +59,7 @@ While this work is being done, you may want to check out the folling libraries:
 ### Templates
 
 * https://github.com/ckirkendall/kioo
+* https://github.com/teropa/hiccups
 
 
 # License
