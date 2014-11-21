@@ -20,7 +20,8 @@ Contributions are welcome.
 
 ## Useful ClojureScript libraries
 
-While this work is being done, you may want to check out the folling libraries:
+While this work is being done, you may want to check out the folling
+libraries:
 
 
 ### Tooling
