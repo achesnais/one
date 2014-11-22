@@ -20,7 +20,7 @@ Contributions are welcome.
 
 ## Useful ClojureScript libraries
 
-While this work is being done, you may want to check out the folling
+While this work is being done, you may want to check out the following
 libraries:
 
 
@@ -45,6 +45,11 @@ libraries:
 * https://github.com/swannodette/om
 * https://github.com/levand/quiescent
 * https://github.com/reagent-project/reagent
+
+
+### UI components
+
+* https://github.com/racehub/om-bootstrap
 
 
 ### Async
