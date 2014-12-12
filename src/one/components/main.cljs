@@ -1,9 +1,15 @@
 (ns one.components.main
+  (:require-macros [kioo.om :refer [defsnippet]])
   (:require [om.core :as om :include-macros true]
             [om.dom :as dom :include-macros true]
             [one.app-state :refer [current-view]]
             [one.components.home :as home]
-            [one.components.libraries :as libraries]))
+            [one.components.libraries :as libraries]
+            [kioo.om :refer [content]]))
+
+(defsnippet main-view-template "templates/navigation.html" [:#mainview]
+  [main-content]
+  {[:div] (content main-content)})
 
 (def initial-view :home)
 
@@ -22,5 +28,4 @@
                     :home home/home-view
                     :libraries libraries/libraries-view
                     unknown-view)]
-    (dom/div #js {:className "container-fluid"}
-      (om/build component app-state))))
+    (main-view-template (om/build component app-state))))
