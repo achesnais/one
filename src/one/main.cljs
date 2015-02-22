@@ -3,7 +3,7 @@
   having a global entry point, create a start function which can be
   called externally. This allows you to define multiple entry points.
   It is also a good place to pass in configuration data which were
-  send with the initial page load."
+  sent with the initial page load."
   (:require [one.app :as app]
             [one.components.main :as main-component]
             [figwheel.client :as fw :include-macros true]))
